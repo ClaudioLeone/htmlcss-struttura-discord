@@ -15,6 +15,7 @@ ul{
 
 li{
     list-style-type: none;
+    color: blue;
 }
 
 nav{
@@ -32,6 +33,13 @@ footer{
 
 }
 
+/* IDs */
+#logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* CLASSES */
 .header-container{
     background-color: goldenrod;
     margin: 10px 150px;
@@ -141,9 +149,4 @@ footer{
 .bottom-btn{
     border: 1px dashed black;
     background-color: lightgrey;
-}
-
-#logo{
-    display: flex;
-    justify-content: flex-start;
 }
