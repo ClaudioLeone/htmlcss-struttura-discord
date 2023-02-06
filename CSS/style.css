@@ -10,34 +10,37 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 80%;
+    gap: 5px;
 }
 
 li{
     list-style-type: none;
-    
-
 }
 
 nav{
     display: flex;
     justify-content: center;
-    width: 200px;
+    width: 65%;
+    border: 1px dashed black;
+}
+
+footer{
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    background-color: rgb(25, 25, 25);
+
 }
 
 .header-container{
+    background-color: goldenrod;
     margin: 10px 150px;
     border: 1px dashed black;
     display: flex;
     text-align: center;
     flex-direction: row;
     justify-content: space-between;
-    align-content: center;
-
-}
-
-.container{
-    /* margin: 0 150px; */
+    align-items: center;
 }
 
 .main-row1{
@@ -49,13 +52,33 @@ nav{
 .fucsia-box{
     margin: 15px 0;
     display: flex;
-    width: 50%;
-    height: 100px;
+    width: 450px;
+    height: 150px;
     background-color: fuchsia;
+    border: 1px dashed black;
 }
 
 .main-row2{
-    background-color: blue;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main-row3{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.main-row5{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.main-row6{
+    background-color: rgb(25, 25, 25);
     display: flex;
     justify-content: center;
 }
@@ -66,13 +89,58 @@ nav{
     width: 350px;
     height: 150px;
     background-color: royalblue;
+    border: 1px dashed black;
 }
+
 .box2{
     margin: 15px 0;
     display: flex;
     width: 150px;
     height: 150px;
     background-color: pink;
+    border: 1px dashed black;
+}
+
+.box3{
+    margin: 15px 0;
+    display: flex;
+    width: 500px;
+    height: 400px;
+    background-color: green;
+    border: 1px dashed black;
+}
+
+.bottom-box1{
+    margin: 15px 0;
+    display: flex;
+    width: 200px;
+    height: 150px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.bottom-box2{
+    margin: 15px 0;
+    display: flex;
+    width: 75px;
+    height: 150px;
+    background-color: turquoise;
+    border: 1px dashed black;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 500px;
+    height: 50px;
+    background-color: turquoise;
+}
+
+.bottom-btn{
+    border: 1px dashed black;
+    background-color: lightgrey;
 }
 
 #logo{
