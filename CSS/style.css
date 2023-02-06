@@ -22,20 +22,57 @@ li{
 nav{
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 200px;
 }
 
 .header-container{
-    /* width: 70%; */
+    margin: 10px 150px;
+    border: 1px dashed black;
     display: flex;
     text-align: center;
     flex-direction: row;
     justify-content: space-between;
+    align-content: center;
 
 }
 
 .container{
-    margin: 0 300px;
+    /* margin: 0 150px; */
+}
+
+.main-row1{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.fucsia-box{
+    margin: 15px 0;
+    display: flex;
+    width: 50%;
+    height: 100px;
+    background-color: fuchsia;
+}
+
+.main-row2{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    margin: 15px 0;
+    display: flex;
+    width: 350px;
+    height: 150px;
+    background-color: royalblue;
+}
+.box2{
+    margin: 15px 0;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: pink;
 }
 
 #logo{
